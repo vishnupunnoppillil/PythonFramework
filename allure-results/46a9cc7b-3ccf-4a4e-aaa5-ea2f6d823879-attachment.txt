@@ -1,0 +1,2 @@
+launching chrome
+Number of rows 2

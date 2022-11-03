@@ -1,0 +1,7 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 107.0.5304
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/vishnu.vijayan/.wdm/drivers/chromedriver/mac_arm64/107.0.5304/chromedriver] found in cache
+[32mINFO    [0m root:test_qwerty.py:20 Testcase 1
+[32mINFO    [0m root:test_qwerty.py:25 username entered
+[32mINFO    [0m root:test_qwerty.py:27 password entered
+[32mINFO    [0m root:test_qwerty.py:29 clicked on login
