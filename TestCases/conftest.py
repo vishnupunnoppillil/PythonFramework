@@ -1,3 +1,4 @@
+import allure
 from  selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
@@ -16,6 +17,12 @@ def test_setup(browser):
     driver.get(ReadConfig.getApplicationURL())
     driver.maximize_window()
     return driver
+
+@pytest.fixture(autouse=True)
+def run_around_tests():
+    print("Test Started")
+    yield
+    driver.quit()
 
 def pytest_addoption(parser):
     parser.addoption("--browser")
